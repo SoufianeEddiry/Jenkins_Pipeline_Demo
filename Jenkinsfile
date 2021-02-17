@@ -1,5 +1,5 @@
 pipeline {
-    agent 'WQYA0423'
+    agent { label 'WQYA0423' }
     stages {
         stage ('Compile Stage') {
 
